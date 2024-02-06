@@ -1,0 +1,495 @@
+
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+.main{
+    width: 100%;
+}
+
+#tg ul li{
+    font-size: 13.5px;
+    padding-right: 20px;
+
+}
+.homepage .navvb{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.418);
+}
+.homepage nav .logo{
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.homepage nav .menubar ul li .buttoncon{
+    border-radius: 60px;
+
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #068FFF;
+    transition: all;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+.homepage nav .menubar ul li .buttoncon:hover{
+    background-color: white;
+    border: 1px solid #068FFF;
+    color: black;
+    box-shadow: 0 0 0.70rem rgba(1, 68, 253, 0.753);
+}
+
+.homepage .photodiv{
+    height: 75vh;
+    margin-top: 120px;
+    background-color: #068fff2a;
+    display: flex;
+    z-index: 0;
+}
+
+.homepage .photodiv .lefttext{
+    height: 75vh;
+    width: 50%;
+    padding-top: 140px;
+    padding-left: 40px;
+    color: black;
+
+}
+
+.homepage .photodiv .lefttext h3{
+   padding-top: 10px;
+    font-size: 1rempx;
+}
+.homepage .photodiv .lefttext h1{
+    padding-top: 10px;
+    font-size: 2..3rem;
+
+    
+}
+.homepage .photodiv .lefttext p{
+    font-size: 1.2rem;
+    padding-top: 3px;
+}
+.homepage .photodiv .lefttext h1 .blue{
+    color: #068FFF;
+   
+   
+}
+
+.homepage .photodiv img{
+    height: 65vh;
+    width: 35% ;
+    padding-right: 50px;
+    padding-top: 70px;
+    filter: drop-shadow(0 0 0.90rem rgba(1, 68, 253, 0.753));
+    transform: translate(0px);
+    animation: float 5s ease-out infinite;
+    transition: all;
+    transition-duration: 0.4s;
+   transition-timing-function: linear;
+    
+}
+
+.homepage .photodiv img:hover{
+    height: 65.2vh;
+    width: 35.2%;
+    filter: drop-shadow(0 0 1rem rgba(1, 68, 253, 0.753));
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+ .hiremebtn .buttonh{
+    border-radius: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #068FFF;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    
+}
+.hiremebtn .buttonh:hover{
+    background-color: white;
+    border: 1px solid #068FFF;
+    color: black;
+    box-shadow: 0 0 0.70rem rgba(1, 68, 253, 0.753);
+    
+}
+.homepage .photodiv .lefttext .hiremebtn ul{
+   
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+   padding-top: 10px;
+   
+    
+}
+.hiremebtn ul li a{
+    color: black;
+    padding-left: 10px;
+   
+   
+}
+.hiremebtn{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+/* end of home page in csssssssss */
+
+.aboutme{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.aboutme h2{
+    font-size: 3rem; 
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.aboutme h2 .blueabout{
+    color: #068FFF;
+}
+
+.aboutme .lfaboutme{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.aboutme .leftaboutme{
+    width: 60%;
+    height: 70vh;
+    padding-left: 50px;
+   
+}
+
+
+.aboutme .leftaboutme img{
+    width: 85%;
+    height: 70vh;
+    padding-top: 0;
+    
+    filter: contrast(150%);
+    filter:  drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.26)); 
+}
+
+.aboutme .rightaboutme{
+    width: 50%;
+    height: 70vh;
+    padding-top: 30px;
+    
+   
+
+}
+.aboutme .rightaboutme h3{
+    font-size: 35px;
+    padding-top: 40px;
+    
+}
+.aboutme .rightaboutme h4{
+    font-size: 22px;
+    
+}
+.aboutme .rightaboutme p{
+    padding-top: 30px;
+    font-size: 14px;
+   
+}
+.aboutme .rightaboutme .mailphone{
+   display: flex;
+}
+.aboutme .rightaboutme .mailphone .phone{
+    margin-left: 5px;
+}
+.aboutme .rightaboutme .btnss{
+    margin-top: 20px;
+    /* display: flex; */
+}
+.aboutme .rightaboutme .btn1{
+    border-radius: 60px;
+    width: 170px;
+    height: 40px;
+    background-color: #068FFF;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.aboutme .rightaboutme .btn1:hover{
+    background-color: white;
+    border: 1px solid #068FFF;
+    color: black;
+    box-shadow: 0 0 0.70rem rgba(1, 68, 253, 0.753);
+    
+}
+.aboutme .rightaboutme .btn2{
+    border-radius: 60px;
+    width: 150px;
+    margin-left: 40px;
+    height: 40px;
+    background-color: #068FFF;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.aboutme .rightaboutme .btn2:hover{
+    background-color: white;
+    border: 1px solid #068FFF;
+    color: black;
+    box-shadow: 0 0 0.70rem rgba(1, 68, 253, 0.753);
+    
+}
+
+.skillspage{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.skillspage h2{
+    font-size: 3rem; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.skillspage .blueskill{
+    color: #068FFF;
+}
+
+.skillspage .skillsdiv{
+  height: 75vh;
+  background-color: #068fff2a;
+
+
+}
+
+.skillspage .skillsdiv .cardcircle{
+    width: 45%;
+    height: 23vh;
+    border-radius: 50%;
+    border: 1px solid #068fff5b;
+    box-shadow: 3px 3px 5px #068fff5b;
+}
+.skillspage .skillsdiv h4{
+    font-size: 17px;
+   
+}
+.skillspage .skillsdiv .cards{
+    height: 60vh;
+    border-radius: 0px 70px 0px 70px;
+}
+
+.skillspage .skillsdiv .cardcircle img{
+    padding-top: 49px;
+    padding-left: 30px;
+}
+
+.projects{
+    width: 100%;
+    height: 100vh;
+
+}
+.projects h2{
+    font-size: 3rem; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.projects h2 .blueproject{
+    color: #068FFF;
+}
+
+
+.projects .projectsdiv .row1 .col1{
+    height: 30vh;
+    width: 23%;
+    box-shadow: 4px 5px 5px #00000071;
+    position: relative;
+    margin-left: 90px;
+}
+.projects .projectsdiv .row1 .col1 .smallcol1{
+    height: 8vh;
+    position: absolute;
+    width: 100%;
+    margin-top: 136.5px;
+    background-color: #068fff5b;
+   
+    
+}
+.projects .projectsdiv .row2 .cols{
+    height: 30vh;
+    box-shadow: 4px 5px 5px #00000071;
+   
+}
+.projects .projectsdiv .row1 .cols .bodyy .smallcol{
+    width: 120%;
+    height: 10vh;
+    padding-left: 0;
+    padding-top: 50px;
+}
+
+
+.contact{
+    width: 100%;
+    height: 100vh;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.contact h2{
+    font-size: 3rem; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact .blueproject{
+    color: #068FFF;
+}
+
+.contact .contactdiv{
+    width: 100%;
+    height: 100vh;
+    background-color: #068fff5b;
+
+}
+.contact .contactdiv .row11{
+    margin-top: 40px;
+}
+
+
+.contact .contactdiv .row11 .namebox{
+    border-radius: 20px;
+    height: 8vh;
+    width: 23%;
+    margin-left: 25%;
+    margin-right: 50px;
+    padding-left: 30px;
+    border: none;
+}
+.contact .contactdiv .row11 .emailaddress{
+    border-radius: 20px;
+    height: 8vh;
+    width: 23%;
+    padding-left: 30px;
+    border: none;
+}
+
+.contact .contactdiv .row22 .message{
+    border-radius: 20px;
+    margin-left: 24%;
+    margin-top: 35px;
+    border: none;
+    width: 53%;
+    padding-top: 10px;
+    padding-left: 30px;
+
+}
+.contact .contactdiv .row33 .buttonc{
+    margin-left: 24%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 22px;
+    width: 80px;
+    height: 6vh;
+    background-color: #068FFF;
+    color: white;
+}
+
+
+@media (max-width: 393px) {
+    .homepage .photodiv{
+        display: block;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        height: 52vh;
+      
+    }
+
+    .homepage .photodiv .lefttext{
+       width: 100% ;
+       height: 35vh;
+       margin-top: 80px;
+       
+       position: absolute;
+      
+       
+
+    }
+    .homepage .photodiv .lefttext h3{
+        font-size: 17px;
+        padding-left: 85px;
+        margin-top: 0;
+    }
+
+    .homepage .photodiv .lefttext h1{
+        font-size: 20px;
+        padding-top: 2px;
+        padding-left: 18px;
+    }
+    .homepage .photodiv .lefttext p{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .homepage .photodiv .lefttext .hiremebtn{
+        display: block;
+        padding-left: 0px;
+        padding-top: 0px;
+
+    }
+    .homepage .photodiv .lefttext .hiremebtn .buttonh{
+      
+        width: 60px;
+        height: 25px;
+        font-size: 10px;
+        margin-left: 100px;
+        padding-top: 4.5px;
+        
+        
+    }
+    .homepage .photodiv .lefttext .hiremebtn ul{
+        
+        padding-top: 15px;
+        margin-right: 20px;
+        margin-left: 60px;
+       
+    }
+    .homepage .photodiv img{
+        height: 210px;
+        width: 90%;
+        padding-top: 20px;
+        padding-left: 90px;
+
+       
+    }
+}
+  
